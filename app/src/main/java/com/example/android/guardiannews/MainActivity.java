@@ -24,7 +24,6 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements LoaderCallbacks<List<Editorial>> {
 
-    private static final String LOG_TAG = MainActivity.class.getSimpleName();
     private static final int TASK_LOADER_ID = 1;
     private static final String GUARDIAN_API = "http://content.guardianapis.com/search?q=";
     private static final String API_KEY = "&api-key=2ce28575-3e4c-4f72-a28c-e0ffc0c5d965";
