@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActivityMain_ParentLayout">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        style="@style/ActivityMain_RecyclerView" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/ActivityMain_ProgressBar" />
+
+    <TextView
+        android:id="@+id/no_results"
+        style="@style/ActivityMain_TextView" />
+
+</RelativeLayout>

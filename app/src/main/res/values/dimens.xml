@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--list_item.xml dimens-->
+    <dimen name="ListItem_ParentLayoutPadding">16dp</dimen>
+    <dimen name="ListItem_SectionTextViewTextSize">16sp</dimen>
+    <dimen name="ListItem_TitleTextViewTextSize">20sp</dimen>
+    <dimen name="ListItem_TitleTextViewPadding">8dp</dimen>
+
+</resources>

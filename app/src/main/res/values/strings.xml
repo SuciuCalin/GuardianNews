@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name" translatable="false">Guardian News</string>
+
+    <string name="search_menu">Search</string>
+    <string name="search_hint">Search The Guardian</string>
+    <string name="placeholder_section">Fake News</string>
+    <string name="placeholder_title">EXTRA!! EXTRA!! Read all about it in this article</string>
+    <string name="no_internet_connection">No internet connection available…\nPlease check your connection settings.</string>
+    <string name="no_results">No matching results found.</string>
+
+</resources>

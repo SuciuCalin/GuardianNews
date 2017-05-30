@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ListItem_ParentLayout">
+
+    <TextView
+        android:id="@+id/editorial_section"
+        style="@style/ListItem_SectionTextView"
+        tools:text="@string/placeholder_section" />
+
+    <TextView
+        android:id="@+id/editorial_title"
+        style="@style/ListItem_TitleTextView"
+        tools:text="@string/placeholder_title" />
+
+</LinearLayout>

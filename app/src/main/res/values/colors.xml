@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--base application colors-->
+    <color name="colorPrimary">@android:color/darker_gray</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--activity_main.xml colors-->
+    <color name="ActivityMain_ParentLayoutBackground">@android:color/darker_gray</color>
+
+    <!--list_item.xml colors-->
+    <color name="ListItem_TitleTextViewColor">@android:color/black</color>
+
+</resources>

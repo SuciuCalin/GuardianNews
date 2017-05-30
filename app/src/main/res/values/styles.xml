@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--activity_main.xml styles-->
+    <style name="ActivityMain_ParentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/ActivityMain_ParentLayoutBackground</item>
+    </style>
+
+    <style name="ActivityMain_RecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <style name="ActivityMain_ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="ActivityMain_TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+
+    <!--list_item.xml styles-->
+    <style name="ListItem_ParentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/ListItem_ParentLayoutPadding</item>
+        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ListItem_SectionTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/ListItem_SectionTextViewTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ListItem_TitleTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/ListItem_TitleTextViewTextSize</item>
+        <item name="android:padding">@dimen/ListItem_TitleTextViewPadding</item>
+        <item name="android:textColor">@color/ListItem_TitleTextViewColor</item>
+    </style>
+
+</resources>
