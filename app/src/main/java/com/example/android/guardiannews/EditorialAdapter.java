@@ -53,7 +53,11 @@ public class EditorialAdapter extends RecyclerView.Adapter<EditorialAdapter.View
             public void onClick(View view, int position) {
                 Uri editorialUri = Uri.parse(editorialListItem.getEditorialUrl());
                 Intent websiteIntent = new Intent(Intent.ACTION_VIEW, editorialUri);
-                mContext.startActivity(websiteIntent);
+
+                //Check if there is an app installed on the phone able to handle the event, before launching it
+                if (websiteIntent.resolveActivity(mContext.getPackageManager()) != null) {
+                    mContext.startActivity(websiteIntent);
+                }
 
                 Log.v(LOG_TAG,"List item: " + editorialListItem + " with " + editorialUri + " was clicked.");
             }

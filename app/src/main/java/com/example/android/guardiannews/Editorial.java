@@ -4,11 +4,11 @@ package com.example.android.guardiannews;
  * Created by JukUm on 5/30/2017.
  */
 
-public class Editorial {
+public final class Editorial {
 
-    private String mEditorialTitle;    //title of the editorial
-    private String mEditorialSection;  //author of the editorial
-    private String mEditorialUrl;      //website url of the editorial
+    private final String mEditorialTitle;    //title of the editorial
+    private final String mEditorialSection;  //author of the editorial
+    private final String mEditorialUrl;      //website url of the editorial
 
     /**
      * Create a new {@link Editorial} object with the title, section, and url
